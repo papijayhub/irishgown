@@ -12,7 +12,7 @@
         <meta name="keywords" content="" />
         <meta name="description" content="" />
         <meta name="author" content="" />
-        <link rel="shortcut icon" href="images/favicon.png" type="">
+        <link rel="shortcut icon" href="images/crown gold.svg" type="">
         <title>Irish Gowns</title>
         <!-- bootstrap core css -->
         <link rel="stylesheet" type="text/css" href="{{asset('home/css/bootstrap.css')}}" />
@@ -22,6 +22,7 @@
         <link href="{{asset('home/css/style.css')}}" rel="stylesheet" />
         <!-- responsive style -->
         <link href="{{asset('home/css/responsive.css')}}" rel="stylesheet" />
+        <link href="{{asset('home/css/loginFormStyle.css')}}" rel="stylesheet" />
         <!-- ===== BOX ICONS ===== -->
         <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
 
@@ -37,7 +38,10 @@
         rel="stylesheet"
         />
     </head>
+    {{-- @include('home.header') --}}
     <body>
+            {{-- <button><a href="{{url('/')}}"><h2>back</h2></a></button> --}}
+
         <div class="l-form">
             <div class="shape1"></div>
             <div class="shape2"></div>
@@ -50,9 +54,9 @@
                 {{ session('status') }}
             </div>
             @endif
-
                 <form action="{{ route('login') }}" method="POST" class="form__content">
                     @csrf
+                <a href="{{url('/')}}"> <span class="float-end close-button"> &times; </span></a>
                     <h1 class="form__title">Welcome</h1>
 
                     <div class="form__div form__div-one">

@@ -51,7 +51,7 @@
 
                 <form action="{{url('/user/search')}}" method="get" >
 
-                    <div class="form-group" >
+                    <div class="form-group d-flex justify-content-center" >
 
                         <input type="text" name="search_name" class="text-dark" placeholder="Search here...">
 

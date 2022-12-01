@@ -24,7 +24,7 @@ class HomeController extends Controller
         $comment=comment::orderby('id','desc')->get();
 
         $reply=reply::all();
-        $product=Product::paginate(9);
+        $product=Product::paginate(6);
         
 
         return view('home.userpage',compact('product','comment','reply'));
@@ -62,7 +62,7 @@ class HomeController extends Controller
             return view('admin.home',compact('total_product', 'total_order', 'total_user', 'total_revenue', 'total_delivered','total_processing'));
         }else
         {
-            $product=Product::paginate(10);
+            $product=Product::paginate(6);
 
             $comment=comment::orderby('id','desc')->get();
 
@@ -364,7 +364,7 @@ class HomeController extends Controller
 
         $search_text=$request->search;
 
-        $product=product::where('title','LIKE',"%$search_text%")->paginate(10);
+        $product=product::where('title','LIKE',"%$search_text%")->paginate(6);
 
         return view('home.userpage',compact('product','comment','reply'));
         // $product=product::where('title','LIKE',"%$search_text%")->orWhere('category','LIKE',"%$search_text%")->paginate(10);
@@ -374,7 +374,7 @@ class HomeController extends Controller
 
     public function product()
     {
-        $product=Product::paginate(10);
+        $product=Product::paginate(6);
 
         $comment=comment::orderby('id','desc')->get();
 
@@ -395,7 +395,7 @@ class HomeController extends Controller
 
         $search_text=$request->search;
 
-        $product=product::where('title','LIKE',"%$search_text%")->orWhere('category','LIKE',"%$search_text%")->paginate(10);
+        $product=product::where('title','LIKE',"%$search_text%")->orWhere('category','LIKE',"%$search_text%")->paginate(6);
 
         return view('home.all_product',compact('product','comment','reply'));
 
@@ -407,11 +407,22 @@ class HomeController extends Controller
     public function about(){
         return view('home.about');
     }
+    public function maoni()
+    {
+        return view('home.userpage');
+    }
     // public function login(){
     //     return view('home.login');
     // }
     // public function register(){
     //     return view('home.login');
     // }
+
+    public function ownercard(){
+        return view('home.modal');
+    }
+    public function profilecard(){
+        return view('home.profilecard');
+    }
   
 }

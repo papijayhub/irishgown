@@ -9,9 +9,13 @@
         <!-- ===== BOX ICONS ===== -->
         <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
         <title>Register</title>  
+        <!-- CSS only -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
     </head>
+    {{-- @include('home.header') --}}
     <body>
         <div class="l-form">
+            {{-- <button class="float-end"><a style="text-decoration: none" href="{{url('/')}}"><h2 class="text-dark">back</h2></a></button> --}}
             <div class="shape1"></div>
             <div class="shape2"></div>
 
@@ -21,6 +25,8 @@
 
                 <form method="POST" action="{{ route('register') }}" class="form__content" id="Form1">
                 @csrf
+                <a href="{{url('/')}}"> <span class="float-end close-button"> &times; </span></a>
+
                     <h1 class="form__title">Welcome</h1>
 
                     <div class="form__div form__div-one">

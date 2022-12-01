@@ -65,3 +65,5 @@ Route::post('sendmail', [MailController::class, 'sendMail']);
 
 Route::get('/contact', [ContactController::class, 'index']);
 Route::post('/contact', [ContactController::class, 'store'])->name('contact.us.store');
+Route::get('/ownercard', [HomeController::class, 'ownercard']);
+Route::get('/profilecard', [HomeController::class, 'profilecard']);

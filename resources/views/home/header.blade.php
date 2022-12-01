@@ -37,13 +37,15 @@
                 <li class="nav-item active">
                    <a class="nav-link" href="{{url('/')}}">Home <span class="sr-only">(current)</span></a>
                 </li>
-               <li class="nav-item dropdown">
+               {{-- <li class="nav-item dropdown">
                    <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="true"> <span class="nav-label">Pages <span class="caret"></span></a>
                    <ul class="dropdown-menu">
                       <li><a href="{{url('about')}}">About</a></li>
-                      <li><a href="">Testimonial</a></li>
                    </ul>
-                </li>
+                </li> --}}
+                <li class="nav-item">
+                  <a class="nav-link" href="{{url('about')}}">About</a>
+               </li>
                 <li class="nav-item">
                    <a class="nav-link" href="{{url('products')}}">Products</a>
                 </li>
@@ -54,10 +56,10 @@
                    <a class="nav-link" href="{{url('contact')}}">Contact</a>
                 </li>
                 <li class="nav-item">
-                   <a class="nav-link" href="{{url('show_cart')}}">Cart</a>
+                   <a class="nav-link" href="{{url('show_cart')}}">Wishlists</a>
                 </li>
                 <li class="nav-item">
-                   <a class="nav-link" href="{{url('show_order')}}">Order</a>
+                   <a class="nav-link" href="{{url('show_order')}}">Reservations</a>
                 </li>
                 <!-- <form class="form-inline">
                   <button class="btn  my-2 my-sm-0 nav_search-btn" type="submit">

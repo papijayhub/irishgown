@@ -10,7 +10,7 @@
       <meta name="keywords" content="" />
       <meta name="description" content="" />
       <meta name="author" content="" />
-      <link rel="shortcut icon" href="images/crown.svg" type="">
+      <link rel="shortcut icon" href="images/crown gold.svg" type="">
       <title>Irish Gowns</title>
       <!-- bootstrap core css -->
       <link rel="stylesheet" type="text/css" href="{{asset('home/css/bootstrap.css')}}" />
@@ -36,10 +36,12 @@
     </head>
 <body>
 @include('home.header')
-
+<section>
+<span style="font-size: 2.5rem; text-align:center; text-align:center;">Our Services</span><hr>
+</section>
 <section>
       <div class="row">
-        <h2 class="section-heading">Our Services</h2>
+        {{-- <h1 class="section-heading mb-5">Our Services</h1> --}}
       </div>
       <div class="row">
         <div class="column">
@@ -49,8 +51,7 @@
             </div>
             <h3>All-in Wedding Packages</h3>
             <p>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam
-              consequatur necessitatibus eaque.
+              A wedding venue or wedding planner, all-inclusive packages will include all catering, floral, decorations, rentals, tables, chairs, linens, venue and so on.
             </p>
           </div>
         </div>
@@ -61,8 +62,7 @@
             </div>
             <h3>Semi All-in Wedding Packages</h3>
             <p>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam
-              consequatur necessitatibus eaque.
+              Budget friendly wedding venue or wedding planner.
             </p>
           </div>
         </div>
@@ -73,8 +73,7 @@
             </div>
             <h3>Photo & Video Coverage - Prenuptial Shoot</h3>
             <p>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam
-              consequatur necessitatibus eaque.
+              A photo can tell a story in one frame, these days, prenuptial sessions are means for couples to immortalize their love story, or even tell new tales with photos.
             </p>
           </div>
         </div>
@@ -200,6 +199,12 @@ section {
   width: 100%;
   display: grid;
   place-items: center;
+}
+.space-banner{
+  /* background: blue; */
+  height: 100%;
+  width: 100%;
+  padding: 50px;
 }
 .row {
   display: flex;

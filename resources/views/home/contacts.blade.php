@@ -11,7 +11,7 @@
 	<meta name="keywords" content="" />
 	<meta name="description" content="" />
 	<meta name="author" content="" />
-	<link rel="shortcut icon" href="images/crown.svg" type="">
+	<link rel="shortcut icon" href="images/crown gold.svg" type="">
 	<title>Irish Gowns</title>
 	<!-- bootstrap core css -->
 	<link rel="stylesheet" type="text/css" href="{{asset('home/css/bootstrap.css')}}" />
@@ -185,7 +185,7 @@
 	font-family: 'Poppins', sans-serif;
 }
 body{
-	background-color: pink;
+	/* background-color: pink; */
 }
 .contactUs{
 	position: relative;

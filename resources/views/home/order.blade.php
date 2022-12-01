@@ -11,8 +11,8 @@
       <meta name="keywords" content="" />
       <meta name="description" content="" />
       <meta name="author" content="" />
-      <link rel="shortcut icon" href="images/favicon.png" type="">
-      <title>Famms - Fashion HTML Template</title>
+      <link rel="shortcut icon" href="images/crown gold.svg" type="">
+      <title>Irish Gown Rentals</title>
       <!-- bootstrap core css -->
       <link rel="stylesheet" type="text/css" href="{{asset('home/css/bootstrap.css')}}" />
       <!-- font awesome style -->
@@ -134,6 +134,7 @@
       <!-- custom js -->
       <script src="home/js/custom.js"></script>
    </body>
+   @include('home.footer')
 </html>
 
 

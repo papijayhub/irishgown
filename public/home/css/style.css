@@ -4,9 +4,9 @@
   margin-right: 10px;
 }
 
-* {
+/* * {
   box-sizing: border-box;
-}
+} */
 body {
   font-family: 'Montserrat', sans-serif;
   color: #0c0c0c;
@@ -118,6 +118,22 @@ a:focus {
       -ms-flex-direction: column;
           flex-direction: column;
 }
+/* show cart nako na style */
+.herow_area {
+  position: relative;
+  min-height: 100vh;
+  width: 80%;
+  text-align: center;
+  margin-top: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+/* end of show cart nako na style */
 
 .sub_page .hero_area {
   min-height: auto;
@@ -328,7 +344,7 @@ a:focus {
 }
 
 .slider_section .carousel-indicators li {
-  background-color: #ffffff;
+  background-color: #f7444e;
   width: 12px;
   height: 12px;
   border-radius: 100%;

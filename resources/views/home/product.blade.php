@@ -104,7 +104,7 @@
          @endforeach
          
          </div>
-         <span style="padding-top: 20px;" class="d-flex bg-danger justify-content-center">
-            {!!$product->appends(Request::all())->links()!!}
+         <span style="padding-top: 20px;" class="d-flex justify-content-center">
+            {!!$product->withQueryString()->links('pagination::bootstrap-5')!!}
          </span>
  </section>
