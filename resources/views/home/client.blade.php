@@ -12,7 +12,7 @@
                    <div class="img_container">
                       <div class="img-box">
                          <div class="img_box-inner">
-                            <img src="images/godwin.jpg" alt="">
+                            <img src="{{asset('images/godwin.jpg')}}" alt="">
                          </div>
                       </div>
                    </div>
@@ -34,7 +34,7 @@
                    <div class="img_container">
                       <div class="img-box">
                          <div class="img_box-inner">
-                            <img src="images/ikebagol.jpg" alt="">
+                            <img src="{{asset('images/ikebagol.jpg')}}" alt="">
                          </div>
                       </div>
                    </div>
@@ -56,7 +56,7 @@
                    <div class="img_container">
                       <div class="img-box">
                          <div class="img_box-inner">
-                            <img src="images/akonigwapo.jpg" alt="">
+                            <img src="{{asset('images/akonigwapo.jpg')}}" alt="">
                          </div>
                       </div>
                    </div>

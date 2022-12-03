@@ -32,11 +32,11 @@
                     <div class="cardkl swiper-slide">
                         <div class="helcardlo">
                             <div class="imgBx">
-                                <img src="images/paul.jpg">
+                                <img src="{{asset('images/paul.jpg')}}">
                             </div>
                             <div class="helcontentlo">
                                 <div class="details">
-                                    <h2>Paul Adrian <br><span>Secretary</span></h2>
+                                    <h2>Paul Adrian <br><span>Assistant</span></h2>
                                     <div class="data">
                                         <span>If you want to change different start from yourself</span>
                                         
@@ -53,7 +53,7 @@
                     <div class="cardkl swiper-slide">
                         <div class="helcardlo">
                             <div class="imgBx">
-                                <img src="images/tess.jpg">
+                                <img src="{{asset('images/tess.jpg')}}">
                             </div>
                             <div class="helcontentlo">
                                 <div class="details">
@@ -75,11 +75,11 @@
                     <div class="cardkl swiper-slide">
                         <div class="helcardlo">
                             <div class="imgBx">
-                                <img src="images/ghiane.jpg">
+                                <img src="{{asset('images/ghiane.jpg')}}">
                             </div>
                             <div class="helcontentlo">
                                 <div class="details">
-                                    <h2>Ghiane Ausejo <br><span>Designer / Make-up Artist</span></h2>
+                                    <h2>Ghiane Irish <br><span>Designer / Make-up Artist</span></h2>
                                     <div class="data">
                                         <span>If you want to change different start from yourself</span>
                                         
@@ -96,7 +96,7 @@
                     <div class="cardkl swiper-slide">
                         <div class="helcardlo">
                             <div class="imgBx">
-                                <img src="images/akonigwapo.jpg">
+                                <img src="{{asset('images/akonigwapo.jpg')}}">
                             </div>
                             <div class="helcontentlo">
                                 <div class="details">
@@ -117,7 +117,7 @@
                     <div class="cardkl swiper-slide">
                         <div class="helcardlo">
                             <div class="imgBx">
-                                <img src="images/akonigwapo.jpg">
+                                <img src="{{asset('images/akonigwapo.jpg')}}">
                             </div>
                             <div class="helcontentlo">
                                 <div class="details">
@@ -145,8 +145,8 @@
     </body>
 
     <!-- Swiper JS -->
-    <script src="home/js/swiper-bundle.min.js"></script>
+    <script src="{{asset('home/js/swiper-bundle.min.js')}}"></script>
 
     <!-- JavaScript -->
-    <script src="home/js/slidercard.js"></script>
+    <script src="{{asset('home/js/slidercard.js')}}"></script>
 </html>

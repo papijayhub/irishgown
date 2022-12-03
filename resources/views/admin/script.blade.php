@@ -15,4 +15,4 @@
     <script src="{{asset('admin/assets/js/todolist.js')}}"></script>
     <!-- endinject -->
     <!-- Custom js for this page -->
-    <script src="admin/assets/js/dashboard.js"></script>
+    <script src="{{asset('admin/assets/js/dashboard.js')}}"></script>

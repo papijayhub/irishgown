@@ -4,7 +4,7 @@
           <div class="col-md-4">
               <div class="full">
                  <div class="logo_footer">
-                   <a href="#"><img width="210" src="images/Asset 1.svg" alt="#" /></a>
+                   <a href="#"><img width="210" src="{{asset('images/Asset 1.svg')}}" alt="#" /></a>
                  </div>
                  <div class="information_f">
                    <p><strong>ADDRESS:</strong> 2nd Floor, Max Bldg. Pooc Occidental, Poblacion, Tubigon, Bohol</p>

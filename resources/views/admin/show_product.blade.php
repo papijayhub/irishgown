@@ -73,7 +73,6 @@
             <th class="th_des">Quantity</th>
             <th class="th_des">Category</th>
             <th class="th_des">Price</th>
-            <th class="th_des">Discount Price</th>
             <th class="th_des">Product Image</th>
             <th class="th_des">Delete</th>
             <th class="th_des">Edit</th>
@@ -87,7 +86,6 @@
             <td>{{$product->quantity}}</td>
             <td>{{$product->category}}</td>
             <td>{{$product->price}}</td>
-            <td>{{$product->discount_price}}</td>
             <td>
 
               <img class="img_size" src="/product/{{$product->image}}">

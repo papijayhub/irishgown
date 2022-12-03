@@ -10,10 +10,10 @@
       <meta name="keywords" content="" />
       <meta name="description" content="" />
       <meta name="author" content="" />
-      <link rel="shortcut icon" href="images/crown gold.svg" type="">
+      <link rel="shortcut icon" href="{{asset('images/crown gold.svg')}}" type="">
       <title>Irish Gowns</title>
       <!-- bootstrap core css -->
-      {{-- <link rel="stylesheet" type="text/css" href="{{asset('home/css/bootstrap.css')}}" /> --}}
+      <link rel="stylesheet" type="text/css" href="{{asset('home/css/bootstrap.css')}}" />
       <!-- font awesome style -->
       <link href="{{asset('home/css/font-awesome.min.css')}}" rel="stylesheet" />
       <!-- Custom styles for this template -->
@@ -23,7 +23,7 @@
       <link href="{{asset('home/css/responsive.css')}}" rel="stylesheet" />
 
       <script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/2.1.2/sweetalert.min.js" integrity="sha512-AA1Bzp5Q0K1KanKKmvN/4d3IRKVlv9PYgwFPvm32nPO6QS8yH1HO7LbgB1pgiOxPtfeg5zEn2ba64MUcqJx6CA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-        @vite(['resources/scss/app.scss'])
+        {{-- @vite(['resources/scss/app.scss']) --}}
       <style type="text/css">
 
         .cartbody{
@@ -40,8 +40,9 @@
         .img_des
         {
             background-size: cover;
-            height: 50px;
+            height: 100px;
             width: 100px;
+            margin: auto;
         }
 
         .total_des
@@ -160,13 +161,13 @@
 
       </script>
       <!-- jQery -->
-      {{-- <script src="home/js/jquery-3.4.1.min.js"></script> --}}
+      <script src="{{asset('home/js/jquery-3.4.1.min.js')}}"></script>
       <!-- popper js -->
-      {{-- <script src="home/js/popper.min.js"></script> --}}
+      <script src="{{asset('home/js/popper.min.js')}}"></script>
       <!-- bootstrap js -->
-      {{-- <script src="home/js/bootstrap.js"></script> --}}
+      <script src="{{asset('home/js/bootstrap.js')}}"></script>
       <!-- custom js -->
-      {{-- <script src="home/js/custom.js"></script> --}}
+      <script src="{{asset('home/js/custom.js')}}"></script>
       {{-- <script src="home/js/modal.js"></script> --}}
     </div>
    </body>

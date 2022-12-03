@@ -13,7 +13,7 @@
     <section class="arrival_section" id="arr">
   <div class="accordion">
     <div class="image-box" id="faq-image">
-        <img src="images/faqimg.jpg" alt="">
+        <img src="{{asset('images/faqimg.jpg')}}" alt="">
     </div>
     <div class="accordion-text">
       <div class="title">Frequently Asked Questions</div>

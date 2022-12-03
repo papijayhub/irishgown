@@ -9,7 +9,7 @@
     <meta name="keywords" content="" />
     <meta name="description" content="" />
     <meta name="author" content="" />
-    <link rel="shortcut icon" href="images/crown.svg" type="">
+    <link rel="shortcut icon" href="{{asset('images/crown.svg')}}" type="">
     <title>Irish Gowns</title>
     <!-- bootstrap core css -->
   <link href="{{asset('home/css/about.css')}}" rel="stylesheet" />

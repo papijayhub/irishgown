@@ -10,7 +10,7 @@
       <meta name="keywords" content="" />
       <meta name="description" content="" />
       <meta name="author" content="" />
-      <link rel="shortcut icon" href="images/crown gold.svg" type="">
+      <link rel="shortcut icon" href="{{asset('images/crown gold.svg')}}" type="">
       <title>Irish Gowns</title>
       <!-- bootstrap core css -->
       <link rel="stylesheet" type="text/css" href="{{asset('home/css/bootstrap.css')}}" />
@@ -62,7 +62,7 @@
             </div>
             <h3>Semi All-in Wedding Packages</h3>
             <p>
-              Budget friendly wedding venue or wedding planner.
+              Budget friendly wedding venue and wedding plan.
             </p>
           </div>
         </div>
@@ -84,8 +84,7 @@
             </div>
             <h3>Full Coverage on the Wedding Day</h3>
             <p>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam
-              consequatur necessitatibus eaque.
+              Our goal is to document an authentic rendering of your wedding from start to finish, telling the story naturally as it unfolds. The ceremony and reception may take 5 or 6 hours, but getting ready, formal pictures, the grant exit and other elements add up.
             </p>
           </div>
         </div>
@@ -96,8 +95,7 @@
             </div>
             <h3>Coordination</h3>
             <p>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam
-              consequatur necessitatibus eaque.
+              Wedding day coordination is an increasingly popular choice for many couples as it allows you absolute control of the details and planning, before handing over the reins of responsibility for the smooth running of the day itself.
             </p>
           </div>
         </div>
@@ -108,8 +106,7 @@
             </div>
             <h3>Church & Venue Decoration</h3>
             <p>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam
-              consequatur necessitatibus eaque.
+              Other than setting the mood, creating the ambiance and theme as well as the ultimate experience of your Event, the Décor also underscores the importance of your Event. An Event that is well put together with style, class and the right Décor shows the importance of the Event and will make your guests feel special.
             </p>
           </div>
         </div>
@@ -120,8 +117,7 @@
             </div>
             <h3>Fog Machine Rental</h3>
             <p>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam
-              consequatur necessitatibus eaque.
+              Stage productions make excellent use of fog and smoke machines to create the right atmosphere on stage. For these types of events, you'll want to ensure you hire or buy a smoke machine which can be safely used indoors. Smoke machines can be used to set the scene for a creepy tale or a misty Victorian street in the early morning – their uses are limited only by your imagination.
             </p>
           </div>
         </div>
@@ -132,8 +128,7 @@
             </div>
             <h3>Wedding Invitation & Giveaways</h3>
             <p>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam
-              consequatur necessitatibus eaque.
+              Tell your guests more about your love story with a custom illustration at your wedding venue. If you love bright, bold colors or prefer a minimalist design, lean into whatever feels right to you. Personalizing your wedding makes the event even more special for your guests, as they'll leave the memorable experience feeling more connected to you both. Your wedding is all about you, and everything.
             </p>
           </div>
         </div>
@@ -144,8 +139,9 @@
             </div>
             <h3>Host / Emcee & Choir</h3>
             <p>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam
-              consequatur necessitatibus eaque.
+              Having an on site host for your wedding is paying for peace of mind. You won't have to worry about lulls in your wedding while everyone guesses what should come next.
+              It's a worthwhile investment to guarantee a stress-free wedding. 
+              Irish Gowns Rentals is dedicated to making the wedding you dreamed of a reality, which is why our wedding packages come with a wedding on site host who is trained to do all those things.
             </p>
           </div>
         </div>
@@ -156,8 +152,7 @@
             </div>
             <h3>Light & Sounds</h3>
             <p>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam
-              consequatur necessitatibus eaque.
+              The lighting in the wedding not only enhances the beauty of the venue but also brightens up the ambience significantly. Similarly, a quality sound system and music arrangement can help set a cheerful mood. After all a wedding is an event of rejoicing and celebrating with people who matter the most.
             </p>
           </div>
         </div><div class="column">
@@ -167,8 +162,7 @@
             </div>
             <h3>Bridal Car</h3>
             <p>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam
-              consequatur necessitatibus eaque.
+              They are used by the bride to travel from the house or hotel to the church and by the newly wedded couple to the reception. Choosing a perfect bridal car will surely be one of the couples can look back on during their most memorable life together.
             </p>
           </div>
         </div><div class="column">
@@ -178,8 +172,7 @@
             </div>
             <h3>Whole Wedding Entourage Attire</h3>
             <p>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam
-              consequatur necessitatibus eaque.
+              The Wedding Entourage also called The Bridal Entourage is composed of people who are closely related to the Bride and the Groom. Family members and honored friends are chosen to assist, sponsor, dress fancy and walk down the aisle to celebrate the glorious event.
             </p>
           </div>
         </div>
