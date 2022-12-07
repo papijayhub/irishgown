@@ -23,13 +23,17 @@
       <link href="{{asset('home/css/responsive.css')}}" rel="stylesheet" />
    </head>
    <body>
+      
       <div class="hero_area">
          <!-- header section strats -->
          @include('home.header')
          <!-- end header section -->
+         
 
       <div class="col-sm-6 col-md-4 col-lg-4" style="margin: auto; width:50%; padding:30px;">
-           
+         <div>
+            <a class="d-flex justify-content-end" style="color: black" href="/"><h2>Back</h2></a>
+         </div>
                <div class="img-box" style="padding: 20px;">
                   <img style="height: 600px; margin: auto"class="d-flex justify-content-center" src="/product/{{$product->image}}" alt="">
                </div>
@@ -76,7 +80,7 @@
                            </div>
    
                            <div class="col-md-5">
-                           <input type="submit" value="Add To Cart">
+                           <input type="submit" value="Add Reservation">
                            </div>
    
    

@@ -51,7 +51,7 @@
    </head>
    <body>
 
-
+    @include('sweetalert::alert')
          <!-- header section strats -->
         @include('home.header')
 

@@ -58,7 +58,7 @@
                            </div>
 
                            <div class="col-md-4">
-                           <input type="submit" value="Add To Cart">
+                           <input type="submit" value="Add Reservation">
                            </div>
 
 
