@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600&display=swap');
+
+*{
+   font-family: 'Montserrat', sans-serif;
+   margin:0; padding:0;
+   box-sizing: border-box;
+   outline: none; border:none;
+   text-decoration: none;
+   text-transform: capitalize;
+   transition: all .2s linear;
+}
+
+body{
+ background-color: #dc143c22; 
+}
+
+.containerikun{
+  max-width: 1500px;
+  margin: 0 auto;
+  text-align: center;
+  padding:25px 20px;
+}
+
+.containerikun .heading{
+  font-size: 40px;
+  margin-bottom: 20px;
+  color:#334;
+}
+
+.containerikun .box-container{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap:50px;
+}
+
+.containerikun .box-container .sbox {
+  background-color: #fff;
+  padding:20px;
+  border-radius: 5px;
+  box-shadow: 0 5px 10px rgba(0,0,0,.2);
+  display: none;
+  /* awts gege */
+  cursor: pointer;
+  box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+   outline: .1rem solid #ccc;
+   outline-offset: -1.2rem;
+}
+
+.containerikun .box-container .sbox:nth-child(1),
+.containerikun .box-container .sbox:nth-child(2),
+.containerikun .box-container .sbox:nth-child(3){
+  display: inline-block;
+}
+
+.containerikun .box-container .sbox .image{
+  margin-bottom: 20px;
+  overflow: hidden;
+  height: 250px;
+  border-radius: 5px;
+}
+
+.containerikun .box-container .sbox .image img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.containerikun .box-container .sbox:hover .image img{
+  transform: scale(1.1);
+}
+
+.containerikun .box-container .sbox .content h3{
+  font-size: 20px;
+  color:#334;
+}
+
+.containerikun .box-container .sbox .content p{
+  font-size: 15px;
+  color:#777;
+  line-height: 2;
+  padding:15px 0;
+  /* ellipsis */
+  /* overflow: hidden;
+  white-space: nowrap; */
+  /* text-overflow: ellipsis; */
+}
+
+.containerikun .box-container .sbox .content .btn{
+  display: inline-block;
+  padding:10px 30px;
+  border:1px solid #334;
+  color:#334;
+  font-size: 16px;
+}
+
+.containerikun .box-container .sbox .content .btn:hover{
+  background-color: crimson;
+  border-color: crimson;
+  color:#fff;
+}
+
+.containerikun .box-container .sbox .content .icons{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 20px;
+  padding-top: 15px;
+  border-top:1px solid #334;
+}
+
+.containerikun .box-container .sbox .content .icons span{
+  font-size: 14px;
+  color:#777;
+}
+
+.containerikun .box-container .sbox .content .icons span i{
+  color:crimson;
+  padding-right: 5px;
+}
+
+#load-more{
+  margin-top: 20px;
+  display: inline-block;
+  padding:13px 30px;
+  border:1px solid #334;
+  color:#334;
+  font-size: 16px;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+#load-more:hover{
+  background-color: crimson;
+  border-color: crimson;
+  color:#fff;
+}
+
+@media (max-width:450px){
+
+  .containerikun .heading{
+    font-size: 25px;
+  }
+
+  .containerikun .box-container{
+    grid-template-columns: 1fr;
+  }
+
+  .containerikun .box-container .sbox .image{
+    height: 200px;
+  }
+
+  .containerikun .box-container .sbox .content p{
+    font-size: 12px;
+  }
+
+  .containerikun .box-container .sbox .content .icons span{
+    font-size: 12px;
+  }
+
+}

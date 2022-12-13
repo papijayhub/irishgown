@@ -1,0 +1,125 @@
+
+.serviceso{
+    /* width: 1300px; */
+    width: 100%;
+    padding: 30px 60px;
+    margin: auto;
+}
+.serviceso a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    background: #333;
+    padding: 10px 15px;
+    border-radius: 18px;
+    transform: 0.5s;
+    /* margin: 20px 0; */
+  }
+.pangbuton{
+    padding: 30px;
+    /* background-color: azure; */
+    /* display: flex; */
+    text-align: center;
+    justify-content: center;
+    height: 400px;
+}
+.pangbuton a{
+    color: rgb(234, 241, 241);
+}
+.pangbuton a:hover{
+    color: #fff;
+    background-color: #f7444e;
+}
+.serviceso h1{
+    text-align: center;
+    font-size: 36px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    position: relative;
+    font-weight: 600;
+}
+.serviceso h1:after{
+    content: '';
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%) ;
+    width: 150px;
+    height: 3px;
+    background-color: #f7444e;
+
+}
+.scards{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.scard{
+    width: calc(34% -22px);
+    /* background: #f2f2f2; */
+    background : #FFCBDE;
+  background : rgba(255, 203, 222, 1);
+    color: #333;
+    padding: 40px 12px;
+    margin: 0 30px;
+    text-align: center;
+    cursor: pointer;
+    transition: 3s;
+    position: relative;
+}
+.sbox i{
+    font-size: 36px;
+    border: 1px solid rgba(0,0,0,0.5);
+    border-radius: 50%;
+    padding: 15px;
+    transition: 0.5s;
+}
+.sbox h3{
+    font-size: 24px;
+}
+.sbox p{
+    margin: 20px 0;
+}
+.sbox a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    background: #333;
+    padding: 10px 15px;
+    border-radius: 18px;
+    transform: 0.5s;
+    margin: 20px 0;
+}
+.sbox a:hover{
+    background: transparent;
+    border: 1px solid #333;
+    transform: scale(1.2);
+    /* background: #dc143c; */
+    /* background: rgb(0, 184, 148); */
+    background: #f7444e;
+}
+.scard:hover .sbox i {
+    /* background: rgba(0, 184, 148); */
+    background: #f7444e;
+    color: #fff;
+    /* border-color: rgb(0, 184, 148); */
+    border-color: #f7444e;
+}
+.scard:after{
+    content: '';
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.3);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    transition: 0.5s;
+}
+.scard:hover:after{
+    transform: rotate(13deg);
+    /* background-color: rgb(0, 184, 148); */
+    background: #f7444e;
+}
